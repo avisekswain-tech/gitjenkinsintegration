@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo $SERVICE_NAME
+		    echo ${SERVICE_NAME}
             }
         }
         stage('Test') {
