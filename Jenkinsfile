@@ -5,11 +5,6 @@ agent any
 			steps {
 			git branch: 'main', credentialsId: 'github-cerd', url: 'https://github.com/avisekswain-tech/gitjenkinsintegration.git'
 			}
-		stage ('testing'){
-			steps {
-			sh 'echo "testing"'
-			}
-		}
 			
 		}
 	}
