@@ -13,7 +13,7 @@ agent any
 			}
 			
 		}
-		stage ('testing2'){
+		stage ('testing3'){
 			steps {
 			sh "echo 'testing3'"
 			}
