@@ -7,5 +7,11 @@ agent any
 			}
 			
 		}
+		stage ('testing'){
+			steps {
+			sh "echo 'testing'"
+			}
+			
+		}
 	}
 }
